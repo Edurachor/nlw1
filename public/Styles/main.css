@@ -1,0 +1,32 @@
+:root {
+    --title-color:#322153;
+    --primary-color:#34cb39;
+    --secondary-color:#f0f0f5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    color:var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* BOX MODEL
+Modelo automatico de caixa
+Possui Largura, altura, espaçamentos, preechimentos, etc.
+Ou somente a maneira vista pelo html(display)
+*/
